@@ -110,11 +110,15 @@
          <!-- ==============Sonar Config ==================== -->
          
       
+<properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+
+    <!-- Sonar -->
     <sonar.host.url>http://13.218.155.204:9000</sonar.host.url>
     <sonar.projectKey>tesla</sonar.projectKey>
     <sonar.projectName>tesla</sonar.projectName>
-
-         
+</properties>        
     <!-- ================= NEXUS DEPLOYMENT ================= -->
 
     <distributionManagement>
