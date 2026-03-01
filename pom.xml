@@ -131,17 +131,15 @@
     <!-- ================= NEXUS DEPLOY ================= -->
 
     <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://44.204.106.168:8081/repository/maven-releases/</url>
+    </repository>
 
-        <repository>
-            <id>nexus</id>
-            <url>http://52.53.227.31:8191/landmark/repository/tesla-fe-releases/</url>
-        </repository>
-
-        <snapshotRepository>
-            <id>nexus</id>
-            <url>http://52.53.227.31:8191/landmark/repository/tesla-fe-snapshots/</url>
-        </snapshotRepository>
-
-    </distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://44.204.106.168:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
