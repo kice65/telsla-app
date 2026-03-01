@@ -33,8 +33,6 @@
         <sonar.projectKey>tesla</sonar.projectKey>
         <sonar.projectName>tesla</sonar.projectName>
 
-        <!-- 🔥 Add your token here -->
-        <sonar.login>YOUR_SONAR_TOKEN_HERE</sonar.login>
 
     </properties>
 
